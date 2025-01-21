@@ -1,0 +1,17 @@
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/general/MathOperations.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/general/Matrix.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/general/Vector.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/objects/JuliaQuarterion.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/objects/Plane.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/objects/RenderableObject.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/objects/TestMandelbulb.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/objects/TestSphere.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/shading/calculations/ShadingOperations.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/shading/objects/LightSource.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/shading/objects/PointLamp.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/visualization/Camera.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/visualization/OrientationOperations.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/visualization/RenderOperations.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/visualization/Scene.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/logic/visualization/ViewingPlane.java
+/Users/nico_munte/NetBeansProjects/FractalRenderer/src/main/java/main/FractalRenderer.java
