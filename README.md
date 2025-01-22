@@ -53,7 +53,8 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
 
 
 ### Rendering 
-The core component of the *Fractal Renderer* is a CPU based [Ray Marching](https://en.wikipedia.org/wiki/Ray_marching) implementation, which allows the approximation of the fractal surface due to an *distance estimator*. In the case of the *Mandelbulb* the used distance estimator. Optical depth is achieved by employing the [Phong reflection model](https://en.wikipedia.org/wiki/Phong_reflection_model) in combination with a crude [Ray Tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) implementation to simulate physical shadows. $a=b$
+The core component of the *Fractal Renderer* is a CPU based [Ray Marching](https://en.wikipedia.org/wiki/Ray_marching) implementation, which allows the approximation of the fractal surface due to an *distance estimator*. In the case of the *Mandelbulb* the used distance estimator is of the form:$$a=b$$
+Optical depth is achieved by employing the [Phong reflection model](https://en.wikipedia.org/wiki/Phong_reflection_model) in combination with a crude [Ray Tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) implementation to simulate physical shadows.
 
 
 ## Planned Features
