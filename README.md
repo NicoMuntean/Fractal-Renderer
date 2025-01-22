@@ -31,15 +31,15 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
 - ***Color (color)***:
   - Defines the natural color of the Mandelbulb assuming full illumination
 - ***Shinyness (shinyness)***:
-  - Defines the *shinyness* coefficient used in the Phong illumination model
+  - Defines the *shinyness* coefficient used in the [Phong reflection model](https://en.wikipedia.org/wiki/Phong_reflection_model)
 - ***Stretch coefficient (stretchCoeff)***:
   - Defines the grade to which the shape of the Mandelbulb is stretched/compressed
 - ***Yaw (yaw)***:
-  - Defines the initial *yaw* of the Mandelbulb
+  - Defines the initial *[yaw](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))* of the Mandelbulb
 - ***Pitch (pitch)***:
-  - Defines the intial *pitch* of the Mandelbulb
+  - Defines the intial *[pitch](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))* of the Mandelbulb
 - ***Roll (roll)***:
-  - Defines the initial *roll* of the Mandelbulb
+  - Defines the initial *[roll](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))* of the Mandelbulb
 
 ### Rendering techniques
 The *Fractal Re
