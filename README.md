@@ -66,7 +66,7 @@ The ***camera*** and ***lamp*** object are freely placeable in all 3 spacial coo
 The generation of a *power 8 Mandelbulb* fractal using the *Fractal Renderer* may look like this (The following code is set as the standard code in the projects ```java main``` function):
 
 ```java
-/*
+        /*
         *   Initializing the camera object and rendering a Mandelbulb object illuminated by a PointLamp, Parameters used:
         *
         *   --- Camera Parameters: ---
@@ -134,7 +134,7 @@ The generation of a *power 8 Mandelbulb* fractal using the *Fractal Renderer* ma
         } catch (Exception ex) {
             System.out.println(ex);
         }
-``
+```
 
 
 ## Planned Features
