@@ -29,7 +29,7 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
         roll = ro;
     }
 ```
-- ***Mandelbulb Center Position (center)***:
+- ***Mandelbulb Center Position (```center```)***:
   - Defines the relative center position of the Mandelbulb
 - ***Mandelbulb Radius (radius)***:
   - Defines the dispersion relation of the coordinates of the render construct to the Mandelbulb set
