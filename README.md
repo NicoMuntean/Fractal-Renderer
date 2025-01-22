@@ -10,6 +10,8 @@ Currently, the *Fractal Renderer* only supports the visualization of ***Spheres*
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fe45f9fa-307e-48ee-88be-f92a5486cdb6" height="290" />
 </p>
+<p align="center">*Example render of a sphere and a power 8 Mandelbulb*</p>
+
 Taking the *Mandelbulb* as an example, these parameters consist of:
 
 ```java
