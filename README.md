@@ -22,23 +22,23 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
         roll = ro;
     }
 ```
-- ***Mandelbulb Center Position (center)***
+- ***Mandelbulb Center Position (center)***:
   - Defines the relative center position of the Mandelbulb
-- ***Mandelbulb Radius (radius)***
+- ***Mandelbulb Radius (radius)***:
   - Defines the dispersion relation of the coordinates of the render construct to the Mandelbulb set
-- ***Power (power)***
+- ***Power (power)***:
   - Defines the power of the Mandelbulb
-- ***Color (color)***
+- ***Color (color)***:
   - Defines the natural color of the Mandelbulb assuming full illumination
-- ***Shinyness (shinyness)***
+- ***Shinyness (shinyness)***:
   - Defines the *shinyness* coefficient used in the Phong illumination model
-- ***Stretch coefficient (stretchCoeff)***
+- ***Stretch coefficient (stretchCoeff)***:
   - Defines the grade to which the shape of the Mandelbulb is stretched/compressed
 - ***Yaw (yaw)***:
   - Defines the initial *yaw* of the Mandelbulb
-- ***Pitch (pitch)***
+- ***Pitch (pitch)***:
   - Defines the intial *pitch* of the Mandelbulb
-- ***Roll (roll)**
+- ***Roll (roll)***:
   - Defines the initial *roll* of the Mandelbulb
 
 ### Rendering techniques
