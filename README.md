@@ -61,7 +61,7 @@ Optical depth is achieved by employing the [Phong reflection model](https://en.w
 
 The ***camera*** and ***lamp*** objects are freely placeable in all 3 spacial coordinates, alternating *pitch*,*yaw*, and *roll* of the objects is in principle possible, but results in bugs as of now, thus not recommended. Video rendering is not implemented yet, but in principle possible, by rendering multiple images and combining them to a video sequence. The resolution of the resulting image can be chosen freely.
 
-The generation of a *power 8 Mandelbulb* fractal using the *Fractal Renderer* may look like this (The following code is set as the standard code in the projects ```java main``` function):
+The generation of a *power 8 Mandelbulb* fractal using the *Fractal Renderer* may look like this *(The following code is set as the standard code in the projects ```java main``` method)*:
 
 ```java
         /*
