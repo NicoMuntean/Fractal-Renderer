@@ -8,7 +8,7 @@ The *Fractal Renderer* project is a vanilla Java developed ***first sketchout***
 ### Supported Shapes and Fractals
 Currently, the *Fractal Renderer* only supports the visualization of ***Spheres*** and ***Mandelbulb fractals***of differing paramters. Taking the *Mandelbulb* as an example, these parameters consist of:
 
-```yaml
+```java
 public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,float sC,float y, float p, float ro) {
         
         center = centerP;
