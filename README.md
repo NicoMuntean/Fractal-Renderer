@@ -56,7 +56,7 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
 The core component of the *Fractal Renderer* is a CPU based [Ray Marching](https://en.wikipedia.org/wiki/Ray_marching) implementation, which allows the approximation of the fractal surface due to an *distance estimator*. In the case of the *Mandelbulb* the used distance estimator is of the form: 
 
 
-$$\frac{\log\left(\left|\vec{r_p}\right|\right)}{2}\frac{\left|\vec{r_p}\right|}{d\left|\vec{r_p}\right|_n} , d\left|\vec{r_p}\right|_n = \left|\vec{r_p}\right|^{p-1} p d\left|\vec{r_p}\right|_m + 1 , m=n-1$$
+$$\frac{\log\left(\left|\vec{r_p}\right|\right)}{2}\frac{\left|\vec{r_p}\right|}{d\left|\vec{r_p}\right|_n} \;\;\;,\;\;\; d\left|\vec{r_p}\right|_n = \left|\vec{r_p}\right|^{p-1} p d\left|\vec{r_p}\right|_m + 1 , m=n-1$$
 
 
 Optical depth is achieved by employing the [Phong reflection model](https://en.wikipedia.org/wiki/Phong_reflection_model) in combination with a crude [Ray Tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) implementation to simulate physical shadows.
