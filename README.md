@@ -5,9 +5,9 @@ The *Fractal Renderer* project is a vanilla Java developed ***first sketchout***
 
 ## Current Features
 
-# Supported Shapes and Fractals
+### Supported Shapes and Fractals
 Currently, the *Fractal Renderer* only supports the visualization of ***Spheres*** and ***Mandelbulb fractals***of differing paramters. 
-# Rendering techniques
+### Rendering techniques
 The *Fractal Re
 
 ## Planned Features
