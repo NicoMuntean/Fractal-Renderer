@@ -52,8 +52,9 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
 
 
 
-### Rendering techniques
-The *Fractal Re
+### Rendering 
+The core component of the *Fractal Renderer* is a CPU based [Ray Marching](https://en.wikipedia.org/wiki/Ray_marching) implementation, which allows the approximation of the fractal surface due to an *distance estimator*. In the case of the *Mandelbulb* the used distance estimator is:$$a=b$$
+
 
 ## Planned Features
 
