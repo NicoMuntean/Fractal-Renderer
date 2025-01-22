@@ -61,7 +61,18 @@ $$\frac{\log\left(\left|\vec{r_p}\right|\right)}{2}\frac{\left|\vec{r_p}\right|}
 
 Optical depth is achieved by employing the [Phong reflection model](https://en.wikipedia.org/wiki/Phong_reflection_model) in combination with a crude [Ray Tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) implementation to simulate physical shadows.
 
+The ***camera*** and ***lamp*** object are freely placeable in all 3 spacial coordinates, alternating *pitch*,*yaw*, and *roll* of the objects is in principle possible, but results in bugs as of now, thus not recommended. Video rendering is not implemented yet, but in principle possible, by rendering multiple images and combining them to a video sequence. 
+
 
 ## Planned Features
 
+- Properly implementing angle transformation operations
+- Properly implementing the stretch coefficient
+- Implementing support for GPU rendering
+- Video rednering
+- Time dynamic fractal parameters
+- Camera and lamp movement paths
+- Control GUI
+- Include more 3D fractals (e.g. Julia Quarterions, ...)
+- Iclude support for user defined distance estimators -> own 3D fractal shapes
 
