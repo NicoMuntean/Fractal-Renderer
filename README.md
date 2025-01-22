@@ -41,6 +41,10 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
 - ***Roll (roll)***:
   - Defines the initial *[roll](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))* of the Mandelbulb
  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fe45f9fa-307e-48ee-88be-f92a5486cdb6" height="290" />
+</p>
+
 
 
 ### Rendering techniques
