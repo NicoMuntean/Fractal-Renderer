@@ -29,23 +29,23 @@ public TestMandelbulb(Vector centerP, float r,double pow,Color color,float shin,
         roll = ro;
     }
 ```
-- ***Mandelbulb Center Position (```center```)***:
+- ***Mandelbulb Center Position (```center, Vector```)***:
   - Defines the relative center position of the Mandelbulb
-- ***Mandelbulb Radius (radius)***:
+- ***Mandelbulb Radius (```radius, Float```)***:
   - Defines the dispersion relation of the coordinates of the render construct to the Mandelbulb set
-- ***Power (power)***:
+- ***Power (```power, Float```)***:
   - Defines the power of the Mandelbulb
-- ***Color (color)***:
+- ***Color (```color, Color```)***:
   - Defines the natural color of the Mandelbulb assuming full illumination
-- ***Shinyness (shinyness)***:
+- ***Shinyness (```shinyness, Float```)***:
   - Defines the *shinyness* coefficient used in the [Phong reflection model](https://en.wikipedia.org/wiki/Phong_reflection_model)
-- ***Stretch coefficient (stretchCoeff)***:
+- ***Stretch coefficient (```stretchCoeff, Float```)***:
   - Defines the grade to which the shape of the Mandelbulb is stretched/compressed
-- ***Yaw (yaw)***:
+- ***Yaw (```yaw, Float```)***:
   - Defines the initial *[yaw](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))* of the Mandelbulb
-- ***Pitch (pitch)***:
+- ***Pitch (```pitch, Float```)***:
   - Defines the intial *[pitch](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))* of the Mandelbulb
-- ***Roll (roll)***:
+- ***Roll (```roll, Float```)***:
   - Defines the initial *[roll](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))* of the Mandelbulb
  
 
