@@ -105,8 +105,8 @@ The generation of a *power 8 Mandelbulb* fractal using the *Fractal Renderer* ma
         float cameraPitch = 0;
         float cameraRoll = 0;
         int viewplaneDistance = 2;
-        int widthPixels = 7680/2;
-        int heightPixels = 4320/2;
+        int widthPixels = 7680;
+        int heightPixels = 4320;
         String saveDir = "/Users/dummyuser/dummydir/";
         String imgName = "dummyname";
         
